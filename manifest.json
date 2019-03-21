@@ -18,5 +18,21 @@
         "48": "images/get_started48.png",
         "128": "images/get_started128.png"
       }
-    }
+    },
+
+    "background": {
+      "scripts": ["eventPage.js"],
+      "persistent": false
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["https://developer.chrome.com/*"],
+        "js": ["content.js", "jquery-3.3.1.min.js"]
+      }
+    ],
+
+    "permissions": [
+      "tabs"
+    ]
 }
