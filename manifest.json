@@ -10,7 +10,7 @@
       "128": "images/get_started128.png"
     },
     "page_action": {
-      "default_popup": "popup.html",
+      "default_popup": "newpopup.html",
       "default_title": "Gutenberg Typography Tool",
       "default_icon": {
         "16": "images/get_started16.png",
