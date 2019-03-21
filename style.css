@@ -1,0 +1,17 @@
+#buttonBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 300px;
+}
+
+button {
+   height: 30px;
+   width: 100px;
+   background: pink; /* This removes the default background */
+   color: #313131;
+   border: 1px solid #313131;
+   border-radius: 50px; /* This gives our button rounded edges */
+   font-size: 12px;
+   cursor: pointer;
+}
