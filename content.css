@@ -1,0 +1,9 @@
+p {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  line-height: 1.45;
+  margin: 0 auto;
+  width: 35em;
+}
