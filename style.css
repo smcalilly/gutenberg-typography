@@ -9,15 +9,19 @@
 #btnChange {
    height: 30px;
    width: 80px;
-   background: #887AFF; /* This removes the default background */
+   background: #ad0000; /* This removes the default background */
    color: #fff;
+   border: 1px solid black;
    border-radius: 50px; /* This gives our button rounded edges */
    font-size: 10px;
    cursor: pointer;
 }
 
 body {
-  background: #ffe47a;
+  background-image: url("images/gutenberg-background-transparent.png");
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
 }
 
 h3 {
