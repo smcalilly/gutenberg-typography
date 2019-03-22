@@ -28,10 +28,11 @@
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
-        "js": ["content.js", "jquery-3.3.1.min.js"],
-        "css": ["content.css"]
+        "js": ["content.js", "jquery-3.3.1.min.js"]
       }
     ],
+
+    "web_accessible_resources": ["content.css"],
 
     "permissions": [
       "tabs",
