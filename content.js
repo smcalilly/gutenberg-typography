@@ -17,19 +17,9 @@ chrome.runtime.onMessage.addListener(function(request, send, sendResponse){
       brAreAdded = true;
     }
 
-
-    //for (i = 0; )
-
+    // apply the style sheet with the new font
     var a = chrome.extension.getURL("content.css");
     $('<link rel="stylesheet" type="text/css" href="' + a + '" >').appendTo("body");
 
   }
 });
-
-// breaks inserted = false
-// check to see t or f
-
-
-// add parameter breaktof
-
-// "boolean flag"
