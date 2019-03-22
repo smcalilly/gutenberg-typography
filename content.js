@@ -1,15 +1,23 @@
 chrome.runtime.sendMessage({todo: "showPageAction"});
 
+// boolean flag for line breaks
+let brAreAdded = false;
+
 // change font based on message from popup
 chrome.runtime.onMessage.addListener(function(request, send, sendResponse){
   if (request.todo == "changeFont"){
     let addFont = request.clickedFont;
+
+    // insert font-family into stylesheet
     $('p').css('font-family', addFont);
 
-    // clear br tags before adding them
-    //$('br').remove();
     // add br tags before each p tag
-    $('br').insertAfter($('p'));
+    if (brAreAdded == false) {
+      $('br').insertAfter($('p'));
+      brAreAdded = true;
+    }
+
+
     //for (i = 0; )
 
     var a = chrome.extension.getURL("content.css");
@@ -17,3 +25,11 @@ chrome.runtime.onMessage.addListener(function(request, send, sendResponse){
 
   }
 });
+
+// breaks inserted = false
+// check to see t or f
+
+
+// add parameter breaktof
+
+// "boolean flag"
