@@ -11,8 +11,3 @@ $(function(){
       });
   });
 });
-
-/*$(function){
-  var width = $().val();
-}
-*/
