@@ -12,10 +12,10 @@ chrome.runtime.onMessage.addListener(function(request, send, sendResponse){
     $('p').css('font-family', addFont);
 
     // add br tags before each p tag
-    if (brAreAdded == false) {
-      $('br').insertAfter($('p'));
-      brAreAdded = true;
-    }
+    //if (brAreAdded == false) {
+    //  $('br').insertAfter($('p'));
+    //  brAreAdded = true;
+    //}
 
     // apply the style sheet with the new font
     var a = chrome.extension.getURL("content.css");
