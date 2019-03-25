@@ -2,6 +2,8 @@
 
 Google Chrome extension to improve the typography when reading books on www.gutenberg.org. Besides improving readability on Project Gutenberg, this tool is helpful for people with sight issues. It can also be used by students whose textbooks are on HTML pages.
 
+See a demo here: https://medium.com/@smcalilly/project-gutenberg-typography-tool-55c9652d11fa
+
 ### plans
 As of now, it works best on gutenberg.org and wikipedia.org. I plan to make it functional on other websites, because it can only change p tags on HTML pages. I’m adding a slider to change the font size, line width, and line height, since version 1 has only one size. I also plan to add a font kit so there’s more fonts available. If you type in Comic Sans, it will revert to the browser default. There are a few other minor fixes I need to make before submitting it to the Chrome extension store. After that, I’ll adapt it to work on other browsers.
 
