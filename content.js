@@ -11,6 +11,5 @@ chrome.runtime.onMessage.addListener(function(request, send, sendResponse){
     // apply the style sheet with the new font
     var a = chrome.extension.getURL("content.css");
     $('<link rel="stylesheet" type="text/css" href="' + a + '" >').appendTo("body");
-
   }
 });
